@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Weather App</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-center my-4 text-white">Weather App</h1>
+		<!-- Form -->
+        <form class="change-location my-1 text-center text-white">
+			<label for="city">Enter the name of the location:</label>
+			<input type="text" name="city" class="form-control p-4">
+			<button type="submit" class="btn btn-primary my-1" style="width:100%">Search</button>
+        </form>
+        <!-- Display information -->
+        <div class="card shadow-lg rounded">
+			<img src="https://via.placeholder.com/400x300" class="time card-img-top">
+			<div class="icon bg-light mx-auto text-center">
+				<img src="" alt="">
+			</div>
+			<div class="text-muted text-uppercase text-center details">
+				<h5 class="my-3"></h5>
+				<div class="my-3"></div>
+				<div class="display-4 my-4">
+					<span class="temp"></span>
+					<span></span>
+				</div>
+			</div>
+        </div>
+        <p class="text-center my-4">Developed by Lawlen Shek</p>
+    </div> 
+	<script src="scripts/app.js"></script>
+</body>
+</html>
